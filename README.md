@@ -4,7 +4,7 @@
 
 **Type a company's name. Get a sourced AI account strategy: its priorities, its AI maturity, the use cases worth pursuing, who decides, and how usage grows over 12 months.**
 
-[**Live demo →**](https://REPLACE-ME.vercel.app) · [What you get](#what-you-get) · [Method](#method) · [Run it](#run-it)
+[What you get](#what-you-get) · [Method](#method) · [Run it](#run-it)
 
 <!-- Add a 30-second screen recording here: docs/demo.gif -->
 
@@ -88,4 +88,4 @@ python -m http.server 8000          # open http://localhost:8000
 
 ---
 
-Built by Mehdi Zerraf. MIT License.
+Built by [Mehdi Zerraf](https://www.linkedin.com/in/mehdi-zerraf). MIT License.

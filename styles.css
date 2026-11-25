@@ -215,6 +215,16 @@ h3 { font-size: 20px; }
 .sources { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 14px; }
 .sources a { color: var(--fact); word-break: break-word; }
 
+.author { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.author-name { font-weight: 600; margin-right: 4px; }
+.btn-ghost.small { padding: 6px 12px; font-size: 13px; }
+.why {
+  margin-top: 22px; padding: 16px 18px; border-left: 3px solid var(--accent);
+  background: var(--surface); border-radius: 0 12px 12px 0; max-width: 680px;
+}
+.why-title { margin: 0 0 6px; font: 600 13px var(--sans); color: var(--accent); }
+.why p:last-child { margin: 0; color: var(--ink-2); font-size: 15px; }
+
 /* Strategy-specific blocks */
 .meter { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-bottom: 14px; }
 .meter span {
@@ -292,7 +302,7 @@ h3 { font-size: 20px; }
 .footer { max-width: 1120px; margin: 40px auto 0; padding: 28px 24px 40px; border-top: 1px solid var(--line); font-size: 13px; color: var(--ink-3); }
 
 @media (max-width: 640px) {
-  .nav > a { display: none; }
+  .author-name { width: 100%; }
   .search { border-radius: 18px; flex-direction: column; }
   .btn-primary { width: 100%; }
 }

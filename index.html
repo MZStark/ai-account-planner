@@ -21,11 +21,11 @@
       <span class="brand-mark" aria-hidden="true">◆</span>
       <span>AI Account Planner</span>
     </a>
-    <nav class="nav">
-      <a href="#examples">Examples</a>
-      <a href="#method">Method</a>
-      <a href="#about">About</a>
-    </nav>
+    <div class="author">
+      <span class="author-name">Mehdi Zerraf</span>
+      <a class="btn-ghost small" href="https://www.linkedin.com/in/mehdi-zerraf" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn-ghost small" href="https://github.com/MZStark/ai-account-planner" target="_blank" rel="noopener">GitHub</a>
+    </div>
   </header>
 
   <main>
@@ -33,6 +33,11 @@
       <p class="eyebrow">AI account strategy</p>
       <h1>From company name to account strategy.</h1>
       <p class="lead">Type a company's name. The planner reads its public sources and builds a sourced account strategy: its priorities, its AI maturity, the use cases worth pursuing, who decides, and how usage grows over 12 months.</p>
+
+      <div class="why" id="about">
+        <p class="why-title">Why this exists</p>
+        <p>An Account Director owns a dozen key accounts. For each one, they need a clear view of where AI fits the company's strategy, who decides, and how usage grows after the first deal. This planner does that research and refuses to invent. Built by Mehdi Zerraf as a working simulation of that job.</p>
+      </div>
 
       <form id="plan-form" class="search" autocomplete="off">
         <label class="sr-only" for="company">Company name</label>
@@ -84,21 +89,6 @@
       <pre class="pipeline" aria-label="Pipeline">company ─▶ GPT-6.2 via Responses API ─▶ web search ─▶ strict JSON schema ─▶ account strategy</pre>
     </section>
 
-    <section id="about" class="section about">
-      <div class="section-head">
-        <p class="eyebrow">About</p>
-        <h2>Why this exists.</h2>
-      </div>
-      <div class="about-body">
-        <p>Account Directors own a dozen key accounts. For each, they need a clear view of where AI fits the company's strategy, who decides, and how usage grows after the first deal. This planner does the research and refuses to invent.</p>
-        <p>Built by Mehdi Zerraf as a working simulation of that job.</p>
-        <p class="disclaimer">Personal demo project, not affiliated with OpenAI or any company shown. Strategies rely on public sources only and must be checked before use.</p>
-        <div class="about-links">
-          <a class="btn-ghost" href="https://www.linkedin.com/in/REPLACE-ME" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="btn-ghost" href="https://github.com/MZStark/openai-account-planner" target="_blank" rel="noopener">GitHub</a>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">Simulation tool for application purposes · Built by Mehdi Zerraf</footer>
