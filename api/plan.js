@@ -43,8 +43,8 @@ module.exports = async function handler(req, res) {
     return res.status(503).json({ error: "Live generation is not configured on this deployment." });
   }
 
-  // Optional access code: when ACCESS_CODE is set, live generation requires it.
-  if (process.env.ACCESS_CODE && req.headers["x-access-code"] !== process.env.ACCESS_CODE) {
+  // Fail closed: live generation always requires ACCESS_CODE to be set and matched.
+  if (!process.env.ACCESS_CODE || req.headers["x-access-code"] !== process.env.ACCESS_CODE) {
     return res.status(401).json({ error: "Live generation needs an access code." });
   }
 
