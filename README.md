@@ -4,7 +4,7 @@
 
 **Type a company's name. Get a sourced AI account strategy: its priorities, its AI maturity, the use cases worth pursuing, who decides, and how usage grows over 12 months.**
 
-[What you get](#what-you-get) · [Method](#method) · [Run it](#run-it)
+[**Live demo →**](https://ai-account-planner-two.vercel.app) · [What you get](#what-you-get) · [Method](#method) · [Run it](#run-it)
 
 <!-- Add a 30-second screen recording here: docs/demo.gif -->
 
