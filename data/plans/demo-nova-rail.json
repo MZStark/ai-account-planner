@@ -1,0 +1,72 @@
+{
+  "company": "Nova Rail (fictional demo)",
+  "one_liner": "FICTIONAL COMPANY used to show the output format. Nova Rail sells train tickets online across Europe; AI is key to cutting support costs and defending margins against carrier-direct apps.",
+  "snapshot": [
+    { "label": "Business", "value": "Online rail ticketing marketplace, B2C and business travel", "source": "https://example.com/demo" },
+    { "label": "Size", "value": "Around 600 employees, 40% in engineering and data", "source": "https://example.com/demo" },
+    { "label": "Funding", "value": "Series D, profitable since last year", "source": "https://example.com/demo" },
+    { "label": "Markets", "value": "HQ in Paris, 9 European markets", "source": "https://example.com/demo" }
+  ],
+  "ai_maturity": {
+    "level": "Piloting",
+    "summary": "Rules-based automation in support and an ML team focused on search; no generative AI in production yet.",
+    "evidence": [
+      { "fact": "A rules-based chatbot handles refunds; the engineering blog says it resolves under a third of requests.", "source": "https://example.com/demo" },
+      { "fact": "Hiring two ML engineers for search ranking and personalization.", "source": "https://example.com/demo" }
+    ]
+  },
+  "strategic_priorities": [
+    { "priority": "Reach profitability in every market", "evidence": "CEO interview names margin per booking as the 2027 focus.", "source": "https://example.com/demo" },
+    { "priority": "Grow business travel", "evidence": "New B2B offer launched with three corporate clients.", "source": "https://example.com/demo" },
+    { "priority": "Replace the legacy booking platform", "evidence": "Conference talk on the monolith migration.", "source": "https://example.com/demo" }
+  ],
+  "use_cases": [
+    { "name": "Refund and rebooking agent in 9 languages", "product": "API", "team": "Customer operations", "business_value": "Absorbs disruption peaks without temporary staff.", "value": "high", "feasibility": "high", "linked_priority": "Reach profitability in every market", "source": "https://example.com/demo" },
+    { "name": "Monolith migration with coding agents", "product": "Codex", "team": "Engineering", "business_value": "Shortens a multi-year migration that blocks new features.", "value": "high", "feasibility": "medium", "linked_priority": "Replace the legacy booking platform", "source": "https://example.com/demo" },
+    { "name": "Natural-language trip search", "product": "API", "team": "Product", "business_value": "Higher conversion on complex multi-leg trips.", "value": "medium", "feasibility": "medium", "linked_priority": "Grow business travel", "source": "https://example.com/demo" },
+    { "name": "Carrier contract analysis", "product": "ChatGPT Enterprise", "team": "Partnerships", "business_value": "Faster negotiations with new rail operators.", "value": "medium", "feasibility": "high", "linked_priority": "Reach profitability in every market", "source": "https://example.com/demo" },
+    { "name": "Travel-policy assistant for corporate clients", "product": "API", "team": "B2B sales", "business_value": "Differentiates the new business-travel offer.", "value": "medium", "feasibility": "low", "linked_priority": "Grow business travel", "source": "https://example.com/demo" }
+  ],
+  "stakeholders": [
+    { "role": "CFO", "influence": "Economic buyer", "cares_about": "Cost per booking and margin by market", "angle": "Tie every use case to cost per contact or margin per booking." },
+    { "role": "VP Customer Operations", "influence": "Champion", "cares_about": "Resolution time during disruptions", "angle": "Start where the pain is weekly and visible." },
+    { "role": "CTO", "influence": "Technical evaluator", "cares_about": "Shipping the migration without slowing the roadmap", "angle": "Offer a scoped Codex pilot on one service." },
+    { "role": "CISO", "influence": "Gatekeeper", "cares_about": "Customer data and EU residency", "angle": "Bring security in at the start, not at signature." }
+  ],
+  "expansion_plan": [
+    { "horizon": "Land (0-3 months)", "motion": "Refund agent pilot on one market and one language.", "trigger": "Pilot resolves more requests than the current bot." },
+    { "horizon": "Expand (3-6 months)", "motion": "All 9 markets plus rebooking; Codex pilot in engineering.", "trigger": "Next disruption peak handled without extra staff." },
+    { "horizon": "Scale (6-12 months)", "motion": "Trip search in product; ChatGPT Enterprise for partnerships and B2B sales.", "trigger": "Migration budget approved in the annual plan." }
+  ],
+  "adoption_and_impact": {
+    "governance": [
+      "Named executive sponsor and one owner per use case",
+      "Data access rules agreed with security before the pilot",
+      "Enablement plan for support agents and engineers"
+    ],
+    "metrics": [
+      { "metric": "Share of requests resolved without an agent", "why": "Direct link to support cost." },
+      { "metric": "Cost per contact during disruption weeks", "why": "The number the CFO already tracks." },
+      { "metric": "Lead time for migrated services", "why": "Shows Codex impact on the migration." }
+    ]
+  },
+  "risks": [
+    { "risk": "Customer data residency concerns", "mitigation": "Walk security through EU data residency options early." },
+    { "risk": "ML team prefers building in-house", "mitigation": "Position build plus buy: they own orchestration, the model is a component." }
+  ],
+  "open_questions": [
+    "Which refund cases still need a human, and why?",
+    "Who owns the build-versus-buy decision for AI?",
+    "How will the CFO judge ROI after one quarter?",
+    "What data can an agent access today?",
+    "Which migration milestones are already committed?"
+  ],
+  "action_plan": [
+    { "window": "30 days", "action": "Map the champion and economic buyer; agree on the pilot scope and success criteria." },
+    { "window": "60 days", "action": "Run the refund agent pilot; open the Codex conversation with the CTO." },
+    { "window": "90 days", "action": "Present pilot results to the CFO with a 12-month expansion plan." }
+  ],
+  "sources": [
+    { "title": "Fictional demo data, no real source", "url": "https://example.com/demo" }
+  ]
+}
