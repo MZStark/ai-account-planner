@@ -10,17 +10,6 @@
 
 ---
 
-## The problem
-
-An Account Director owns a dozen key accounts. For each one, the questions are the same:
-
-- What is this company trying to achieve, and where does AI fit?
-- Which teams would get the most value, and what is realistic first?
-- Who decides, who champions, who can block?
-- How does usage grow after the first deal, and how will leadership measure impact?
-
-Answering them takes hours of reading, and most AI research tools answer fast but invent freely. This planner does the research and refuses to invent.
-
 ## What you get
 
 | Section | Type | Content |
